@@ -55,4 +55,4 @@ Open `superstore.db` in DB Browser for SQLite, then run queries from `analysis_q
 
 **Sree Manju**  
 Data Analyst | SQL · Python · Power BI · ETL  
-[LinkedIn](https://www.linkedin.com/in/sreemanju-023233405)
+[LinkedIn](www.linkedin.com/in/sree-manju-023233405)
