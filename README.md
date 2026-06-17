@@ -5,7 +5,7 @@ SQL business analysis, and dashboard visualization using a retail
 superstore dataset (9,994 orders).
 
 ## Tech Stack
-Python · SQL (SQLite) · Tableau (in progress) · Power BI (in progress)
+Python · SQL (SQLite) · Tableau  · Power BI (in progress)
 
 ## Project Overview
 
@@ -16,7 +16,7 @@ This project simulates a real-world analytics workflow:
    duplicates, and creates calculated fields (profit margin, shipping days)
 3. **Load** — Cleaned data loaded into a SQLite database
 4. **Analyze** — SQL queries answer key business questions
-5. **Visualize** — Tableau and Power BI dashboards (coming soon)
+5. **Visualize** — Tableau Dashboard built ; Power BI dashboards (coming soon)
 
 ## Key Insights
 
@@ -36,6 +36,7 @@ This project simulates a real-world analytics workflow:
 | `Sample-Superstore.csv` | Source dataset (Tableau's public sample data) |
 | `superstore.db` | Cleaned SQLite database (output of ETL pipeline) |
 | `analysis_queries.sql` | 6 SQL queries answering business questions |
+| `Retail_Sales_Dashboard.twbx` | Tableau packaged workbook — interactive dashboard visualizing sales, profit, and regional performance |
 
 ## How to Run
 
@@ -47,8 +48,13 @@ python3 etl_pipeline.py
 **SQL Queries:**
 Open `superstore.db` in DB Browser for SQLite, then run queries from `analysis_queries.sql`
 
+## Dashboard
+
+The Tableau dashboard (`Retail_Sales_Dashboard.twbx`) visualizes sales, profit, and regional performance trends from the cleaned dataset, including [the specific views/sheets you built — e.g. sales by region, profit by category, top products].
+
+To view it: download the file and open it in [Tableau Desktop](https://www.tableau.com/products/desktop) or [Tableau Reader](https://www.tableau.com/products/reader) — GitHub doesn't render .twbx files in the browser.
+
 ## Roadmap
-- [ ] Tableau dashboard
 - [ ] Power BI dashboard
 
 ## Author
