@@ -19,7 +19,7 @@ This project simulates a real-world analytics workflow:
 5. **Visualize** — Tableau Dashboard built ; Power BI dashboards (coming soon)
 
 ## Key Insights
--Central region has a negative average profit margin (-10.41%), while West, East, and South are all profitable — flagging a potential pricing or cost issue specific to that region
+- Central region has a negative average profit margin (-10.41%), while West, East, and South are all profitable — flagging a potential pricing or cost issue specific to that region
 - Technology category drives the highest profit ($145K), while Furniture lags significantly ($18K) despite similar sales volume
 - Several product sub-categories operate at a net loss, identified through SQL analysis (see `analysis_queries.sql`)
 
